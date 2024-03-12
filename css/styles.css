@@ -34,7 +34,7 @@
 
 
 .animate:hover,
-.animation:active,
+.animation:after,
 a:hover,
 a {
     transform: translateY(-5px);
