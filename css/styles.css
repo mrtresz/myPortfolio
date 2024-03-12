@@ -1,0 +1,57 @@
+.jumbotron {
+    background-image: url('../images/cyberbg.jpg');
+    background-size: cover;
+
+
+
+}
+
+.jumbotron div {
+    color: white;
+    text-shadow: 2px 2px 2px blue;
+    font-size: 1.3em;
+}
+
+.lg-text {
+    font-size: 1.5em;
+    color: #333;
+    text-shadow: 0px 0px 1px #000;
+}
+
+.shadow {
+    box-shadow: 0px 0px 4px #333;
+}
+
+
+
+.mg {
+    margin: 2px;
+}
+
+.pd {
+    padding: 24px;
+}
+
+
+.animate:hover,
+a:hover,
+a {
+    transform: translateY(-5px);
+    filter: opacity();
+    text-decoration: none;
+}
+
+body {
+    background-color: papayawhip;
+
+}
+
+.trans {
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 24px;
+    border: 2px solid whitesmoke;
+}
+
+.row div {
+    transition: all .15s;
+}
