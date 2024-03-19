@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html {
+
+
+    background-image: url('./images/shelf.jpg');
+    background-size: cover;
+    color: papayawhip;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    width: 550px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    font-size: 1.2rem;
+    border: solid 2px papayawhip;
+    background-color: black;
+    padding: 4px;
+    width: 70%;
+    margin: 20px;
+    border-radius: 5px;
+
+}
+
+.main-content {
+    width: 100%;
+    height: 300px;
+    background-color: papayawhip;
+    padding: 50px 40px;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 0 0 10px;
+}
+
+.main-content .text-area {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.main-content .author {
+    font-size: 1.6rem;
+    color: firebrick;
+    text-transform: uppercase;
+    margin-top: 20px
+}
+
+.btn-area button {
+    background-color: #333;
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 8px 16px;
+    margin-top: 18px;
+    border-radius: 8px;
+}
+
+.btn-area button:active {
+    background-color: lightcyan;
+    color: #333;
+}
